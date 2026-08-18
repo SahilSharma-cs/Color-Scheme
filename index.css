@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+}
+
+input{
+    width: 3.187em;
+    height: 2.125em;
+    border: 1px solid grey;
+    padding-inline: 0;
+    padding-block: 0;
+    cursor: pointer;
+}
+
+input[type="color"]{
+    padding: 0;
+}
+
+
+.color-box{
+    height: 80vh;
+}
+
+.scheme-container{
+    display: flex;
+    align-items: center;
+    padding: 0.625em 1.25em;
+}
+.scheme-child{
+    width: 100%;
+}
+p{
+    margin: 0;
+    text-align: center;
+    font-size: 0.75rem;
+    padding-top: 0.25em;
+    font-weight: 600;
+    color: #2B283A;
+}
+
+button{
+    background-color: white;
+    padding: 0.178em 0.2678em;
+    border: 1px solid gray;
+    cursor: pointer;
+    font-size: 0.7rem;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+header{
+    display: flex;
+    gap: 0.625em;
+    align-items: center;
+    padding: 0.625em 1.25em;
+    justify-content: center;
+}
+
+
+
+.dropdown{
+    text-transform: capitalize;
+    width: 56%;
+    padding: 0.714em 1.25em;
+    color: gray;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+@media (min-width: 400px){
+    button{
+        font-size: 0.8rem;         
+        padding: 0.5em 0.8em; 
+    }
+    p{
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 769px){
+    button{
+        font-size: 1rem;
+        padding: 0.4em 0.8em;
+    }
+    input{
+        width: 3.5em;
+        height: 2.5em;
+    }
+    p{
+        font-size: 1rem;
+    }
+}
